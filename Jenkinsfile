@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/hoanglvh/github-webhook.git'
+                echo 'hello world'
             }
         }
     }

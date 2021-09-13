@@ -1,9 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage('Clone') {
+        stage('Build') {
             steps {
-                echo 'hello world'
+                echo 'Build...'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Test'
             }
         }
     }
